@@ -1,0 +1,31 @@
+# Mapping config for the fictional City of Exampletown open-data portal.
+# Every value under [columns] is a column NAME in the source CSV header.
+
+source_city = "Exampletown"
+datetime_format = "%m/%d/%Y %H:%M"
+
+[columns]
+incident_id = "CASE_NUM"
+datetime = "OCCURRED"
+category = "OFFENSE"
+description = "SUMMARY"
+latitude = "LAT"
+longitude = "LON"
+district_or_neighborhood = "BEAT_NAME"
+source_url = "RECORD_URL"
+
+# Raw source category strings -> blotter's standard categories.
+# Lookup is case-insensitive; anything unmapped falls back to "other".
+[categories]
+"LARCENY / THEFT" = "theft"
+"SHOPLIFTING" = "theft"
+"AGGRAVATED ASSAULT" = "assault"
+"SIMPLE ASSAULT" = "assault"
+"BURGLARY - RESIDENTIAL" = "burglary"
+"BURGLARY - COMMERCIAL" = "burglary"
+"ARMED ROBBERY" = "robbery"
+"GRAFFITI / VANDALISM" = "vandalism"
+"WIRE FRAUD" = "fraud"
+"HOMICIDE" = "homicide"
+"NARCOTICS POSSESSION" = "drug"
+"TRAFFIC COLLISION - DUI" = "traffic"

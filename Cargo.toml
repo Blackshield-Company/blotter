@@ -1,0 +1,22 @@
+[package]
+name = "blotter"
+version = "0.1.0"
+edition = "2021"
+description = "Normalize and explore public crime/incident CSV data from any city"
+license = "Apache-2.0"
+
+[[bin]]
+name = "blotter"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+
+[dev-dependencies]
+tempfile = "3"

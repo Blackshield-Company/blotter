@@ -1,0 +1,13 @@
+CASE_NUM,OCCURRED,OFFENSE,SUMMARY,LAT,LON,BEAT_NAME,RECORD_URL
+EX-2026-0001,01/05/2026 09:12,LARCENY / THEFT,Bicycle stolen from a porch on Cormorant Lane,42.3611,-91.4372,Northloop,https://data.exampletown.invalid/incidents/EX-2026-0001
+EX-2026-0002,01/05/2026 14:40,SHOPLIFTING,Shoplifting reported at a grocer on Marbled Finch Avenue,42.3598,-91.4401,Northloop,https://data.exampletown.invalid/incidents/EX-2026-0002
+EX-2026-0003,01/18/2026 23:05,AGGRAVATED ASSAULT,Altercation outside a venue on Kettlebrush Street,42.3522,-91.4290,Millhurst,https://data.exampletown.invalid/incidents/EX-2026-0003
+EX-2026-0004,02/02/2026 03:30,BURGLARY - RESIDENTIAL,Forced entry at a home on Yellow Aster Court,42.3489,-91.4512,Quarry Bend,https://data.exampletown.invalid/incidents/EX-2026-0004
+EX-2026-0005,02/14/2026 19:55,ARMED ROBBERY,Robbery at a kiosk on Lanternfish Row,42.3670,-91.4233,Millhurst,https://data.exampletown.invalid/incidents/EX-2026-0005
+EX-2026-0006,02/21/2026 16:10,GRAFFITI / VANDALISM,Graffiti on a retaining wall along Silt Harbor Drive,42.3445,-91.4478,Quarry Bend,https://data.exampletown.invalid/incidents/EX-2026-0006
+EX-2026-0007,03/03/2026 11:26,WIRE FRAUD,Fraudulent wire transfers reported by a resident of Bramblewick Way,42.3712,-91.4355,Northloop,https://data.exampletown.invalid/incidents/EX-2026-0007
+EX-2026-0008,03/09/2026 01:48,NARCOTICS POSSESSION,Possession arrest near the Willowfen Overpass,42.3561,-91.4189,Fog Hollow,https://data.exampletown.invalid/incidents/EX-2026-0008
+EX-2026-0009,03/09/2026 02:15,TRAFFIC COLLISION - DUI,DUI collision at Thimbleweed Pike and Cinder Cone Road,42.3577,-91.4202,Fog Hollow,https://data.exampletown.invalid/incidents/EX-2026-0009
+EX-2026-0010,03/14/2026 21:47,SUSPICIOUS CIRCUMSTANCES,Unattended package reported on Porcelain Quail Terrace,42.3630,-91.4444,Northloop,https://data.exampletown.invalid/incidents/EX-2026-0010
+EX-2026-0011,03/22/2026 08:03,SIMPLE ASSAULT,Mutual altercation behind a shop on Halcyon Mews,,,Millhurst,https://data.exampletown.invalid/incidents/EX-2026-0011
+EX-2026-0012,03/30/2026 17:36,BURGLARY - COMMERCIAL,Break-in at a warehouse on Ternfall Industrial Loop,42.3401,-91.4601,Quarry Bend,
