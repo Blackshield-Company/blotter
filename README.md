@@ -112,7 +112,8 @@ cargo test    # unit + end-to-end tests against the bundled synthetic example
 
 - Mapping configs for real cities, contributed by users
 - `blotter diff` — compare two normalized datasets
-- Dashboard UI for interactive exploration (later)
+- [x] Desktop window (`blotter-desktop`) — point at a mapping TOML and a raw CSV, normalize, and read stats and rows. Same local core. Nothing leaves the machine.
+- [ ] Windows and Mac release builds (workflow is in, run it when the suite is finished)
 - SQLite export for larger datasets
 
 ## License

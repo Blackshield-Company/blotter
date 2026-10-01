@@ -1,2 +1,4 @@
-/target/
+/target
 **/*.rs.bk
+src-tauri/target
+src-tauri/gen

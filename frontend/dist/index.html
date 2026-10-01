@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>Blotter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Blotter</h1>
+    <p class="path">Never touches the network. Example data is synthetic.</p>
+  </header>
+  <p id="error" class="error" hidden></p>
+  <main>
+    <section class="board">
+      <form id="normalize-form">
+        <h2>Normalize</h2>
+        <input name="config_path" required placeholder="Mapping TOML path" spellcheck="false" autocomplete="off" />
+        <input name="input_path" required placeholder="Raw CSV path" spellcheck="false" autocomplete="off" />
+        <input name="output_path" required placeholder="Output CSV path" spellcheck="false" autocomplete="off" />
+        <button class="btn" type="submit">Normalize</button>
+      </form>
+      <form id="load-form">
+        <h2>Load</h2>
+        <input name="path" required placeholder="Normalized CSV path" spellcheck="false" autocomplete="off" />
+        <button class="btn" type="submit">Load</button>
+      </form>
+      <p id="result" class="saved"></p>
+      <div id="skipped"></div>
+    </section>
+    <section id="detail" class="detail">
+      <p class="empty">Normalize or load a CSV.</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

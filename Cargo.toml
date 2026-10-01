@@ -5,6 +5,10 @@ edition = "2021"
 description = "Normalize and explore public crime/incident CSV data from any city"
 license = "Apache-2.0"
 
+[lib]
+name = "blotter"
+path = "src/lib.rs"
+
 [[bin]]
 name = "blotter"
 path = "src/main.rs"

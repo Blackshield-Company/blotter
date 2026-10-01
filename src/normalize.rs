@@ -1,6 +1,7 @@
 //! `blotter normalize` — apply a mapping config to a raw source CSV.
 
 use anyhow::{anyhow, Context, Result};
+use serde::Serialize;
 use std::path::Path;
 
 use crate::cli::NormalizeArgs;
@@ -23,6 +24,7 @@ pub fn run(args: &NormalizeArgs) -> Result<()> {
     Ok(())
 }
 
+#[derive(Serialize)]
 pub struct NormalizeSummary {
     pub written: usize,
     pub skipped: Vec<(usize, String)>,

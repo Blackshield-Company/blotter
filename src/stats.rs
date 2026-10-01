@@ -1,6 +1,7 @@
 //! `blotter stats` and `blotter to-json`.
 
 use anyhow::Result;
+use serde::Serialize;
 use std::collections::BTreeMap;
 
 use crate::cli::{StatsArgs, ToJsonArgs};
@@ -8,7 +9,7 @@ use crate::normalize::read_normalized;
 use crate::schema::NormalizedIncident;
 
 /// Counts over a normalized dataset. BTreeMaps keep output deterministic.
-#[derive(Debug, Default, PartialEq)]
+#[derive(Debug, Default, PartialEq, Serialize)]
 pub struct Stats {
     pub total: usize,
     pub by_category: BTreeMap<String, usize>,
