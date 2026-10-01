@@ -119,4 +119,5 @@ cargo test    # unit + end-to-end tests against the bundled synthetic example
 
 Apache-2.0 — see [LICENSE](LICENSE). Example data in `examples/` is entirely synthetic.
 
-Made by synth with blackclaw
+
+Part of [Blackshield Company](https://github.com/Blackshield-Company).
