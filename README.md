@@ -1,3 +1,5 @@
+![blotter](.github/preview.png)
+
 # blotter
 
 **blotter** normalizes and explores public crime/incident data. Every city publishes incident data as a differently-shaped CSV — different column names, different date formats, different offense labels. blotter applies a small per-city TOML mapping config to turn any of them into **one common schema**, so journalists and researchers can compare cities without writing a new scraper script each time.
